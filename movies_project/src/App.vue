@@ -16,6 +16,7 @@
           
           <b-modal id="modal-1" title="Añadir nueva película">
             <!-- AQUI VA EL CONTENIDO DE MI MODAL -->
+            <Form></Form>
           </b-modal>
         </b-row>
 
@@ -27,3 +28,7 @@
 </template>
 
 
+<script> 
+import Form from './components/Form.vue';
+
+</script>
